@@ -1,0 +1,18 @@
+package tasks04_selection_statements;
+
+public class Grade2 {
+
+    public static void main(String[] args) {
+
+        char grade = 'D';
+
+        switch (grade){
+            case  'A' -> System.out.println("Excellent");
+            case  'B' -> System.out.println("Great job");
+            case  'C' -> System.out.println("Good");
+            case  'D' -> System.out.println("Passed");
+            case  'F' -> System.out.println("Failed");
+            default -> System.err.println("Invalid Grade");
+        }
+    }
+}
