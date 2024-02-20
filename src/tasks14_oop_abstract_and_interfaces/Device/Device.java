@@ -92,7 +92,7 @@ public abstract class Device {
         return "Device{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
-                ", price=" + price +
+                ", price=" + price +"$"+
                 ", color='" + color + '\'' +
                 ", size=" + size +
                 ", Is_has_Battery=" + Is_has_Battery +

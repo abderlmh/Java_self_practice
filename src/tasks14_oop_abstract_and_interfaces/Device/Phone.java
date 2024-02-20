@@ -16,11 +16,11 @@ public class Phone extends Device{
     }
 
     public void call(long phoneNum){
-        System.out.println(getBrand() +" "+ getModel() +" is Calling : + " + phoneNum );
+        System.out.println(getBrand() +" "+ getModel() +" is Calling : +1 " + phoneNum );
     }
 
     public void text (long phoneNum){
-        System.out.println(getBrand()+" "+getModel()+" is texting : + " + phoneNum);
+        System.out.println(getBrand()+" "+getModel()+" is texting : +1 " + phoneNum);
     }
 
 
